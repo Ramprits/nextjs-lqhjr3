@@ -1,15 +1,14 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 
-function ProductDetails() {
+function Docs() {
   const router = useRouter();
-
   return (
     <div>
-      Product Details
-      {JSON.stringify(router, null, 4)}
+      Docs
+      {JSON.stringify(router, null, 6)}
     </div>
   );
 }
 
-export default ProductDetails;
+export default Docs;
